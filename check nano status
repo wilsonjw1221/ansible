@@ -1,0 +1,8 @@
+---
+  - name: iluvnano
+    hosts: hosts
+    tasks:
+      - name: ensure nano is there
+        apt:
+         name: nano
+         state: latest
